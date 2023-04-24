@@ -1,0 +1,42 @@
+<!DOCTYPE html=5>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Mis apuntes</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Mis Apuntes</h1>
+    </header>
+    <div class="options">
+      <button id="btnAdd">Agregar</button>
+      <button id="btnEdit">Editar</button>
+      <button id="btnDel">Eliminar</button>
+    </div>
+    <div id="ventanaModal" class="modal">
+      <div class="modal-content">
+        <h3 class="titulo-modal"></h3>
+        <span class="cerrar"></span>
+        <!-- <span class="cerrar">&times;</span> -->
+        <input class="box input-titulo" type="text" placeholder="Escribir">
+        <div class="options">
+          <button id="btnModal" type="submit">Aceptar</button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="box" style="display: none;">
+        <h3><a href="">Ejemplo</a></h3>
+      </div>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

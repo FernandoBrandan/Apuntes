@@ -1,0 +1,108 @@
+@import url();
+
+:root {
+    --background-color: #045256;
+    --section-color: #9ab8ba;
+    --cards-color: #ddf7f8;
+    --color-title: #67898b;
+    --color: #0b1516;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+body{
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+i, svg , a{
+    background-color: transparent;
+}
+
+nav {
+    position: fixed;
+    bottom: 1px;
+    width: 35vh;
+    height: 100vh; 
+    background-color: var(--section-color);
+    box-shadow: 5px 5px 10px;
+}
+
+nav header {
+    background: var(--color-title);
+    color: var(--color);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: 0 1px 10px var(--background-color);
+}
+
+nav .crud{
+    margin-top: 35%;
+    text-align: center;
+    background-color: transparent;
+}
+
+nav .crud a {
+    color: var(--color);
+    padding: 0 10px 0 10px;
+    display: inline;
+}
+
+nav .crud a i svg {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+nav .enlaces {
+    background-color: transparent;
+    margin-top: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+nav .enlaces a {
+    margin: 10px 0 10px 0; 
+    color: var(--color);
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+nav .enlaces a:hover {
+    border-radius: 50px 50px 50px 50px;
+    transition: .5s; 
+    box-shadow: 0 1px 10px var(--background-color);
+}
+
+.section {
+    display: inline-block;
+    width: 100%;
+    height: 99vh;
+    margin: auto;
+    background-color: var(--background-color);
+    border: 1px solid red ;
+}
+
+section { 
+    position: absolute;
+    margin: 20px;
+    left: 40vh;
+}
+
